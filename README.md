@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  🚀 City Population API using Fastify
+  🚀 City Population API using Fastify and MongoDB
 </h4>
 
 <p align="center">		 
