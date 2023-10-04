@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="LogoGitHub" src=".github/logo/GitHub_Logo.png" width="200px"/>
+    <img alt="Trazi" src="https://assets.jazz.co/customers/customer_20220617183953_1UYLXHPICLAUZE7B/layout/20221101150518-Trazi-logo-FullColor%20(1).png" width="200px"/>
 </h1>
 
 <h3 align="center">
