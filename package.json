@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
+    "start": "npm run start:docker && npm run start:app",
+    "start:docker": "docker-compose up -d",
+    "start:app": "node src/index.js",
     "lint": "eslint src/ --ext .js --fix",
     "prepare": "husky install"
   },

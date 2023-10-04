@@ -46,8 +46,11 @@ async function convertCsvDataToCities() {
 }
 
 async function initData() {
-  const cities = await convertCsvDataToCities();
-  await bulkCities(cities);
+  const count = await City.countDocuments();
+  if (count === 0) {
+    const cities = await convertCsvDataToCities();
+    await bulkCities(cities);
+  }
 }
 
 module.exports = { initData };
