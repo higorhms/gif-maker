@@ -1,0 +1,33 @@
+.container {
+  max-width: 80%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.header {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 50%;
+  font-size: 1.2em;
+}
+
+.image {
+  display: block;
+  max-height: 300px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 10px;
+
+  // grayscale image in css
+  filter: grayscale(100%);
+}
+
+.controller{
+  max-width: 50%;
+}

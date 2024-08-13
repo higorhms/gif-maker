@@ -1,0 +1,35 @@
+.header {
+  color: #303030;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.controller {
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  label {
+    width: 100px; 
+    text-align: right;
+    margin-right: 10px; 
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  input[type="range"] {
+    flex-grow: 1; 
+    margin-right: 10px;
+  }
+
+  span {
+    white-space: nowrap; 
+    width: 50px; 
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 10px 20px;
+  background: #FFFFFF;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #31343e;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10%;
+  width: 80px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #d0fbff;
+  }
+}
+
+.icon {
+  font-size: 25px;
+  margin-bottom: 1px;
+}
+
+.text {
+  font-size: 0.7em;
+}
+
+.activeLink {
+  @extend .item;
+  background-color: #d0fbff;
+  cursor: default;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.leftColorSeparator {
+  margin-left: 12%;
+  height: 5px;
+  margin-bottom: 5px;
+  background: #18e1d6;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation: slideInRight 1s ease-in;
+}
+
+.rightColorSeparator {
+  margin-right: 12%;
+  height: 5px;
+  margin-bottom: 5px;
+  background: #f35d93;
+  position: overflow;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation: slideInLeft 1s ease-in;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}

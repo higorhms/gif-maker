@@ -1,0 +1,27 @@
+.gridItem {
+  flex-shrink: 0;
+  list-style-type: none;
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px;
+
+  position: relative;
+  display: inline-block;
+
+  img {
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.deleteIcon {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  background-color: #ff5b5b;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+}

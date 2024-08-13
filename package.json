@@ -1,28 +1,39 @@
 {
-  "name": "city-population",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "gif-maker",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "npm run start:docker && npm run start:app",
-    "start:docker": "docker-compose up -d",
-    "start:app": "node src/index.js",
-    "lint": "eslint src/ --ext .js --fix",
-    "prepare": "husky install"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1427.0",
     "dotenv": "16.3.1",
-    "fast-csv": "4.3.6",
-    "fastify": "4.23.2",
-    "mongoose": "7.5.3"
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "gif-encoder-2": "1.0.5",
+    "jimp": "0.22.10",
+    "nanoid": "^4.0.2",
+    "next": "13.4.12",
+    "next-s3-upload": "^0.3.0",
+    "node-fetch": "^3.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.12.0",
+    "sass": "^1.64.1",
+    "sharp": "^0.32.4",
+    "tmp": "^0.2.1",
+    "typescript": "5.1.6"
   },
   "devDependencies": {
-    "eslint": "8.50.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.28.1",
-    "husky": "8.0.3"
+    "@aws-sdk/client-s3": "^3.382.0",
+    "@hello-pangea/dnd": "16.3.0",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-beautiful-dnd": "13.1.7",
+    "@types/react-dom": "18.2.7",
+    "@types/tmp": "^0.2.3"
   }
 }

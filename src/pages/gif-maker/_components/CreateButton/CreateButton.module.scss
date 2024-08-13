@@ -1,0 +1,18 @@
+.container {
+  margin-top: 20px;
+
+  input{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 40px;
+    background-color: #F7E3EA;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #303030;
+  }
+
+  input:hover{
+    background-color: #f9d7e3;
+    cursor: pointer;
+  }
+}

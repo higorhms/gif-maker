@@ -1,0 +1,40 @@
+.gridItem {
+  margin: 1%;
+  list-style-type: none;
+  padding: 1%;
+  background-color: #31343E;
+  border-radius: 10px;
+  position: relative;
+  cursor: grab;
+
+  .deleteIcon {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff5b5b;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+  }
+}
+
+.addToGifMakerButtonContainer{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.addToGifMakerButton{
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #A0E1A3;
+  cursor: pointer;
+  border: none;
+
+  :hover{
+    background-color: #64BF6A;
+  }
+}
